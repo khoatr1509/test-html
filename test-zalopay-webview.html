@@ -223,7 +223,8 @@
             
             // Redirect to callback URL after 2 seconds
             setTimeout(() => {
-                const callbackUrl = `https://zalo.me/s/3171023002121437841/callback-checkout?apptransid=${appTransId}&status=failed&amount=${amount}`;
+                // const callbackUrl = `https://zalo.me/s/3171023002121437841/callback-checkout?apptransid=${appTransId}&status=success&amount=${amount}`;
+                const callbackUrl = `https://zalo.me/s/3171023002121437841/history?type=1`;
                 console.log('Redirecting to:', callbackUrl);
                 window.location.href = callbackUrl;
             }, 2000);
