@@ -203,7 +203,7 @@
             
             // Redirect to callback URL after 2 seconds
             setTimeout(() => {
-                const callbackUrl = `/callback?apptransid=${appTransId}&order_id=${orderId}&amount=${amount}&status=success`;
+                const callbackUrl = `https://zalo.me/s/3171023002121437841/callback/?apptransid=${appTransId}&order_id=${orderId}&amount=${amount}&status=success`;
                 console.log('Redirecting to:', callbackUrl);
                 window.location.href = callbackUrl;
             }, 2000);
@@ -222,7 +222,8 @@
             
             // Redirect to callback URL after 2 seconds
             setTimeout(() => {
-                const callbackUrl = `/callback?apptransid=${appTransId}&order_id=${orderId}&amount=${amount}&status=failed`;
+                // const callbackUrl = `https://zalo.me/s/3171023002121437841/callback-checkout?apptransid=${appTransId}&status=success&amount=${amount}`;
+                const callbackUrl = `https://zalo.me/s/3171023002121437841/callback/?apptransid=${appTransId}&order_id=${orderId}&amount=${amount}&status=success`;
                 console.log('Redirecting to:', callbackUrl);
                 window.location.href = callbackUrl;
             }, 2000);
