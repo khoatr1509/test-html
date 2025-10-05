@@ -1,4 +1,5 @@
-[
+{
+  "games": [
   {
     "title": "Zelda: Breath of the Wild",
     "subtitle": "Explore the vast kingdom of Hyrule",
@@ -25,3 +26,4 @@
     "imageName": "minecraft"
   }
 ]
+}
