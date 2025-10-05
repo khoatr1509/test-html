@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Zelda: Breath of the Wild",
+    "subtitle": "Explore the vast kingdom of Hyrule",
+    "imageName": "zelda"
+  },
+  {
+    "title": "Super Mario Odyssey",
+    "subtitle": "Embark on a globe-trotting adventure",
+    "imageName": "mario"
+  },
+  {
+    "title": "Animal Crossing: New Horizons",
+    "subtitle": "Build your dream island life",
+    "imageName": "animalcrossing"
+  },
+  {
+    "title": "Pokémon Scarlet",
+    "subtitle": "Catch and train Pokémon in a new world",
+    "imageName": "pokemon"
+  },
+  {
+    "title": "Minecraft",
+    "subtitle": "Create, explore, and survive in blocky worlds",
+    "imageName": "minecraft"
+  }
+]
